@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205 Friendly Date Ranges", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "208 Culling Numbers", "208 Culling Numbers\208 Culling Numbers.csproj", "{1FEDF789-14E9-422A-BEA4-9B0D8741D8C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Service Lane", "HkR Service Lane\HkR Service Lane.csproj", "{1E447ECB-3F53-425F-AB81-9D033E051E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{202E1FD6-197D-49DC-9C7B-6F6A44064A13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1FEDF789-14E9-422A-BEA4-9B0D8741D8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEDF789-14E9-422A-BEA4-9B0D8741D8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEDF789-14E9-422A-BEA4-9B0D8741D8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E447ECB-3F53-425F-AB81-9D033E051E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E447ECB-3F53-425F-AB81-9D033E051E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E447ECB-3F53-425F-AB81-9D033E051E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E447ECB-3F53-425F-AB81-9D033E051E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202E1FD6-197D-49DC-9C7B-6F6A44064A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202E1FD6-197D-49DC-9C7B-6F6A44064A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202E1FD6-197D-49DC-9C7B-6F6A44064A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202E1FD6-197D-49DC-9C7B-6F6A44064A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
