@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Util
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Maximizing XOR", "HkR Maximizing XOR\HkR Maximizing XOR.csproj", "{045302F4-E62B-415F-95AB-33134AEF8E72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR The Love Letter Mystery", "HkR The Love Letter Mystery\HkR The Love Letter Mystery.csproj", "{51D212BA-1705-4B01-986E-4DD44C6C5819}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{045302F4-E62B-415F-95AB-33134AEF8E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045302F4-E62B-415F-95AB-33134AEF8E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045302F4-E62B-415F-95AB-33134AEF8E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D212BA-1705-4B01-986E-4DD44C6C5819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D212BA-1705-4B01-986E-4DD44C6C5819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D212BA-1705-4B01-986E-4DD44C6C5819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D212BA-1705-4B01-986E-4DD44C6C5819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
