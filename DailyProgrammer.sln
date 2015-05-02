@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Angry Professor", "HkR 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Halloween Party", "HkR Halloween Party\HkR Halloween Party.csproj", "{6C17A372-2483-48C2-B1FA-95A8B6896C36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Find Digits", "HkR Find Digits\HkR Find Digits.csproj", "{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{6C17A372-2483-48C2-B1FA-95A8B6896C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C17A372-2483-48C2-B1FA-95A8B6896C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C17A372-2483-48C2-B1FA-95A8B6896C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
