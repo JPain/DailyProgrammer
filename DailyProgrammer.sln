@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Halloween Party", "HkR 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Find Digits", "HkR Find Digits\HkR Find Digits.csproj", "{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Chocolate Feast", "HkR Chocolate Feast\HkR Chocolate Feast.csproj", "{61A29330-1422-4F90-B12F-05521363CF23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7AF2B1-8D48-4049-A8EB-A488A3DCB236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A29330-1422-4F90-B12F-05521363CF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A29330-1422-4F90-B12F-05521363CF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A29330-1422-4F90-B12F-05521363CF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A29330-1422-4F90-B12F-05521363CF23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
