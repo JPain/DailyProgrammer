@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR The Love Letter Mystery
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Lonely Integer", "HkR Lonely Integer\HkR Lonely Integer.csproj", "{05B8FF44-07D2-4A67-A41F-FF033DE9F335}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Cut The Sticks", "HkR Cut The Sticks\HkR Cut The Sticks.csproj", "{2A1C99CD-A37F-43B1-A632-381025F11516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{05B8FF44-07D2-4A67-A41F-FF033DE9F335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B8FF44-07D2-4A67-A41F-FF033DE9F335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05B8FF44-07D2-4A67-A41F-FF033DE9F335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1C99CD-A37F-43B1-A632-381025F11516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1C99CD-A37F-43B1-A632-381025F11516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1C99CD-A37F-43B1-A632-381025F11516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1C99CD-A37F-43B1-A632-381025F11516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
