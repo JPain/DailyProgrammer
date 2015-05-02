@@ -9,52 +9,33 @@ namespace HkR_Manasa_and_Stones
     class Program
     {
 
-        static public int A { get; set; }
-        static public int B { get; set; }
-        static public int NumOfStones { get; set; }
-        static public List<int> Result { get; set; }
-        static public int Count { get; set; }
-
         static void Main(string[] args)
         {
             var numOfTestCases = int.Parse(Console.ReadLine());
 
-
             for (int i = 0; i < numOfTestCases; i++)
             {
-                Result = new List<int>();
-                Count = 0;
-                NumOfStones = int.Parse(Console.ReadLine());
-                A = int.Parse(Console.ReadLine());
-                B = int.Parse(Console.ReadLine());
-                Process(0);
+                var result = new List<long>();
+                var numOfStones = int.Parse(Console.ReadLine());
+                var a = int.Parse(Console.ReadLine());
+                var b = int.Parse(Console.ReadLine());
 
-                Result.Sort();
+                for (int j = 0; j <= numOfStones - 1; j++)
+                {
+                    var theNumberOfGod = j*a + (numOfStones - j - 1)*b;
 
-                foreach (var i1 in Result)
+                    if (!result.Contains(theNumberOfGod)) result.Add(theNumberOfGod);
+                    
+                }
+
+                result.Sort();
+
+                foreach (var i1 in result)
                 {
                     Console.Write(i1 + " ");
                 }
                 Console.Write("\n");
             }
-        }
-
-        static void Process(int runningNumber)
-        {
-            if (Count == NumOfStones)
-            {
-                if (!Result.Contains(runningNumber))
-                {
-                 Result.Add(runningNumber);
-                }
-            }
-            else
-            {
-                Count++;
-                Process(runningNumber + A);
-                Process(runningNumber + B);
-            }
-            
         }
     }
 }
