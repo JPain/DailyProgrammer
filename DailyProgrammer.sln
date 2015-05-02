@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Find Digits", "HkR Find
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Chocolate Feast", "HkR Chocolate Feast\HkR Chocolate Feast.csproj", "{61A29330-1422-4F90-B12F-05521363CF23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Cavity Map", "HkR Cavity Map\HkR Cavity Map.csproj", "{DAC166C1-498C-4E07-9A34-8A8D914FCD01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{61A29330-1422-4F90-B12F-05521363CF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61A29330-1422-4F90-B12F-05521363CF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61A29330-1422-4F90-B12F-05521363CF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC166C1-498C-4E07-9A34-8A8D914FCD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC166C1-498C-4E07-9A34-8A8D914FCD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC166C1-498C-4E07-9A34-8A8D914FCD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC166C1-498C-4E07-9A34-8A8D914FCD01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
