@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Cavity Map", "HkR Cavit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Manasa and Stones", "HkR Manasa and Stones\HkR Manasa and Stones.csproj", "{AB7669D0-F3C1-4322-AAB8-351A23A09739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Alternating Characters", "HkR Alternating Characters\HkR Alternating Characters.csproj", "{72012092-F66F-465A-9F58-0AC91A031A76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{AB7669D0-F3C1-4322-AAB8-351A23A09739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB7669D0-F3C1-4322-AAB8-351A23A09739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB7669D0-F3C1-4322-AAB8-351A23A09739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72012092-F66F-465A-9F58-0AC91A031A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72012092-F66F-465A-9F58-0AC91A031A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72012092-F66F-465A-9F58-0AC91A031A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72012092-F66F-465A-9F58-0AC91A031A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
