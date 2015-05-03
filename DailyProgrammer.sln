@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Circle City", "HkR Circ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR ACM ICPC Team", "HkR ACM ICPC Team\HkR ACM ICPC Team.csproj", "{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Taum and Bday", "HkR Taum and B'day\HkR Taum and Bday.csproj", "{9AD4C722-6BBE-4C32-BDAE-0088CAC98DA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD4C722-6BBE-4C32-BDAE-0088CAC98DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD4C722-6BBE-4C32-BDAE-0088CAC98DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD4C722-6BBE-4C32-BDAE-0088CAC98DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD4C722-6BBE-4C32-BDAE-0088CAC98DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
