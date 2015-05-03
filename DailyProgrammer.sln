@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Ice Cream Parlor", "HkR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Circle City", "HkR Circle City\HkR Circle City.csproj", "{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR ACM ICPC Team", "HkR ACM ICPC Team\HkR ACM ICPC Team.csproj", "{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7352C-E6DD-484A-BE3F-B409B9B7A7D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
