@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Alternating Characters"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Ice Cream Parlor", "HkR Ice Cream Parlor\HkR Ice Cream Parlor.csproj", "{EC4FAD30-7968-4E3D-8F39-4037E22C2CD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HkR Circle City", "HkR Circle City\HkR Circle City.csproj", "{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{EC4FAD30-7968-4E3D-8F39-4037E22C2CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4FAD30-7968-4E3D-8F39-4037E22C2CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4FAD30-7968-4E3D-8F39-4037E22C2CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FC3565-1E1C-4C2A-A713-8D2C4F6AEC67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
