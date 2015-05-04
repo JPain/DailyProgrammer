@@ -17,39 +17,41 @@ namespace HkR_Taum_and_B_day
                 var line1 = Console.ReadLine();
                 var line2 = Console.ReadLine();
 
-                var b = int.Parse(line1.Split(' ')[0]);
-                var w = int.Parse(line1.Split(' ')[1]);
+                long blackRequired = int.Parse(line1.Split(' ')[0]);
+                long whiteRequired = int.Parse(line1.Split(' ')[1]);
 
-                var x = int.Parse(line2.Split(' ')[0]);
-                var y = int.Parse(line2.Split(' ')[1]);
-                var z = int.Parse(line2.Split(' ')[2]);
+                long blackCost = int.Parse(line2.Split(' ')[0]);
+                long whiteCost = int.Parse(line2.Split(' ')[1]);
+                long convertCost = int.Parse(line2.Split(' ')[2]);
 
-                long totalCost = 0;
+                long runningTotal = 0;
 
-                if (x > y + z) //Are Black Gifts more expensive than buying White Gifts and turning into Black?
+                if (blackCost > whiteCost + convertCost) 
+                    //Are Black Gifts more expensive than buying White Gifts and turning into Black?
                 {
                     //Buy White Gifts and convert into Black
-                    totalCost += y * b;
-                    totalCost += z * b;
+                    runningTotal += whiteCost * blackRequired;
+                    runningTotal += convertCost * blackRequired;
 
-                    totalCost += y * w;
+                    runningTotal += whiteCost * whiteRequired;
                 }
-                else if (y > x + z) //Are White Gifts more expensive than buying Black Gifts and turning into White?
+                else if (whiteCost > blackCost + convertCost) 
+                    //Are White Gifts more expensive than buying Black Gifts and turning into White?
                 {
                     //Buy Black Gifts and convert into White
-                    totalCost += x * w;
-                    totalCost += z * w;
+                    runningTotal += blackCost * whiteRequired;
+                    runningTotal += convertCost * whiteRequired;
 
-                    totalCost += x * b;
+                    runningTotal += blackCost * blackRequired;
                 }
                 else
                 {
                     //Buy all original gifts
-                    totalCost += x * b;
-                    totalCost += y * w;
+                    runningTotal += blackCost * blackRequired;
+                    runningTotal += whiteCost * whiteRequired;
                 }
 
-                Console.WriteLine(totalCost);
+                Console.WriteLine(runningTotal);
             }
         }
     }
